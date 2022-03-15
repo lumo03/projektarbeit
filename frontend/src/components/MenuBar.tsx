@@ -1,10 +1,13 @@
 import React, { FC, useState } from "react";
 import { Heading, Navbar } from "react-bulma-components";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import { RootState } from "../redux-store";
 
 const MenuBar: FC = (props) => {
   const [menuState, setMenuState] = useState(false);
-  const isSignedIn = false; // TODO: in Redux implementieren
+  const isSignedIn = useSelector((state: RootState) => state.user.isSignedIn);
+
   return (
     <>
       {/* Adaption, Quelle: https://react-bulma.io/docs/components/components/navbar/ */}
