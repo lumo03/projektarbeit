@@ -11,7 +11,7 @@ const SignOut: FC = () => {
 
   const signOutUser = () => {
     dispatch(signOut());
-    navigate("/")
+    navigate("/");
   };
   return (
     <Layout title="Abmelden">

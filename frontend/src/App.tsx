@@ -1,7 +1,7 @@
 import { FC } from "react";
-import Router from './Router';
+import Router from "./components/Router";
 import { useRoutes } from "react-router";
-import Routes from "./Router";
+import Routes from "./components/Router";
 import { useAppSelector } from "./components/hooks";
 
 const App: FC = () => {
