@@ -25,7 +25,7 @@ const initialState: IUserState = {
 };
 
 export const userSlice = createSlice({
-  name: "user",
+  name: "game",
   // `createSlice` will infer the state type from the `initialState` argument
   initialState,
   reducers: {

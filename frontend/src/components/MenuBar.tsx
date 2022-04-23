@@ -14,7 +14,7 @@ const MenuBar: FC = (props) => {
       <Navbar className="has-shadow" color="primary">
         <Navbar.Brand>
           <Navbar.Item renderAs={Link} to="/">
-            <img src="mso-logo.svg" alt="MSO Logo" width="50" height="28" />
+            <img src="/mso-logo.svg" alt="MSO Logo" width="50" height="28" />
             <Heading size={4}>MSO-Aktienspiel</Heading>
           </Navbar.Item>
           <Navbar.Burger onClick={() => setMenuState(!menuState)} />
