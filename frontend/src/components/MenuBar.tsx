@@ -33,6 +33,9 @@ const MenuBar: FC = (props) => {
                 Anmelden
               </Navbar.Item>
             )}
+            <Navbar.Item renderAs={Link} to="/game">
+              Spiel
+            </Navbar.Item>
             <Navbar.Item renderAs={Link} to="/about">
               Über
             </Navbar.Item>

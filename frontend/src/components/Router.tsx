@@ -12,6 +12,7 @@ import Settings from "../pages/Settings";
 import SignIn from "../pages/SignIn";
 import SignOut from "../pages/SignOut";
 import SignUp from "../pages/SignUp";
+import Game from "../pages/Game";
 
 const Router: FC = () => {
   const isSignedIn = useAppSelector((state) => state.user.isSignedIn);
@@ -42,6 +43,10 @@ const Router: FC = () => {
         <Route
           path="/account"
           element={isSignedIn ? <Account /> : <Navigate to="/signin" />}
+        />
+        <Route
+          path="/game"
+          element={isSignedIn ? <Game /> : <Navigate to="/signin" />}
         />
         <Route path="/about" element={<About />} />
         <Route path="/imprint" element={<Imprint />} />
