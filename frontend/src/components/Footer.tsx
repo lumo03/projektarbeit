@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { RootState } from "../redux-store";
 
-const MenuBar: FC = (props) => {
+const Footer: FC = (props) => {
   const [menuState, setMenuState] = useState(false);
   const isSignedIn = useSelector((state: RootState) => state.user.isSignedIn);
 
@@ -56,4 +56,4 @@ const MenuBar: FC = (props) => {
   );
 };
 
-export default MenuBar;
+export default Footer;

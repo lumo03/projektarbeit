@@ -1,0 +1,132 @@
+/*.content {
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}*/
+
+.content {
+  height: 100vh;
+  background: black;
+}
+/*
+.heading {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+background-image: url("/stocks-background.jpg");
+*/
+/*
+#layer1 {
+    display: flex;
+    justify-content: center;
+    color: "white";
+    background-color: black;
+    align-items: center;
+}
+
+#layer1 #heading {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    margin: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+#layer1 #text {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+#layer2 {
+    background-image: URL("/money-background-smaller.jpg");
+    background-position: center;
+
+}
+
+#layer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-color: black;
+    padding: 2rem;
+}
+
+#layer3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-color: black;
+    padding: 2rem;
+}*/
+
+body {
+  background: black;
+}
+
+.layer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: black;
+  padding: 2rem;
+}
+
+.layer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background-color: black;
+  padding: 2rem;
+}
+
+.heading {
+  color: white;
+  width: 40vw;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 2rem;
+  text-transform: none;
+}
+
+.text {
+  color: white;
+  width: 40vw;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 2rem;
+  line-height: 170%;
+}
+
+.animation {
+  /*background: radial-gradient(circle, rgba(0,0,0,0.5) 0%, rgba(158, 122, 122, 0.5) 100%);*/
+  /*box-shadow: 10px 10px 100px rgba(158, 4, 169, 0.5);*/
+  display: inline-flex;
+  color: white;
+  font-size: 100px;
+  margin: 2rem;
+  margin-left: 15rem;
+  text-align: right;
+  align-self: right;
+  right: 0;
+}
+
+.image {
+  width: 30vw;
+  font-size: 100px;
+  margin: 2rem;
+  margin-left: 12rem;
+  box-shadow: 0px 0px 200px rgba(196, 4, 210, 0.5);
+}

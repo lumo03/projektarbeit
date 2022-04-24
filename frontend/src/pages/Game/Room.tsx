@@ -6,8 +6,8 @@ import { GameContext } from "../../components/socket";
 import { emit } from "../../redux-store/gameSlide";
 
 const Room: FC = () => {
-    const { socket, messages, user } = useContext(GameContext);
-    const [gameCode, setGameCode] = useState("");
+  const { socket, messages, user } = useContext(GameContext);
+  const [gameCode, setGameCode] = useState("");
   return (
     <>
       <h3>Willkommen beim Spiel</h3>
@@ -19,7 +19,7 @@ const Room: FC = () => {
           socket.emit("join_room", gameCode, (msg: string) => {
             user.isConnected = true;
             messages.push(msg);
-          }); 
+          });
         }}
       >
         <Form.Field>

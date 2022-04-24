@@ -10,7 +10,7 @@ interface IGameState {
     isConnected: boolean;
     userId?: string;
     roomId?: string;
-  }
+  };
 }
 
 // Define the initial state using that type
@@ -19,8 +19,8 @@ const initialState: IGameState = {
     transports: ["websocket", "polling"],
   }),
   user: {
-    isConnected: false
-  }
+    isConnected: false,
+  },
 };
 
 interface IEmit {
@@ -40,12 +40,16 @@ export const gameSlice = createSlice({
   initialState,
   reducers: {
     emit: (state, action: PayloadAction<IEmit>) => {
-      state.socket.emit(action.payload.event, action.payload.data, action.payload.callback)
+      state.socket.emit(
+        action.payload.event,
+        action.payload.data,
+        action.payload.callback
+      );
     },
     on: (state, action: PayloadAction<IOn>) => {
-      state.socket.on(action.payload.event, action.payload.callback)
+      state.socket.on(action.payload.event, action.payload.callback);
     },
-  }
+  },
 });
 
 export const { emit, on } = gameSlice.actions;
