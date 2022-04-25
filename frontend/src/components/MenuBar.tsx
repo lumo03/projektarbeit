@@ -11,7 +11,7 @@ const MenuBar: FC = (props) => {
   return (
     <>
       {/* Adaption, Quelle: https://react-bulma.io/docs/components/components/navbar/ */}
-      <Navbar className="" color="black">
+      <Navbar className="m-0" color="black" style={{backgroundColor: "black"}}>
         <Navbar.Brand>
           <Navbar.Item renderAs={Link} to="/">
             <img
