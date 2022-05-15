@@ -1,9 +1,6 @@
 import { FC, useContext, useState } from "react";
 import { Button, Form } from "react-bulma-components";
-import { useSelector } from "react-redux";
-import { Socket } from "socket.io-client";
 import { GameContext } from "../../components/socket";
-import { emit } from "../../redux-store/gameSlide";
 
 const Room: FC = () => {
   const { socket, messages, user } = useContext(GameContext);

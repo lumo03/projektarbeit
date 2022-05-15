@@ -1,5 +1,4 @@
 import { configureStore } from "@reduxjs/toolkit";
-import gameSlice from "./gameSlide";
 import userSlice from "./userSlice";
 
 /* Adaption, Quelle: https://redux-toolkit.js.org/tutorials/typescript */

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "1",
+    "name": "Apple",
+    "price": 100,
+    "change": 10
+  },
+  {
+    "id": "2",
+    "name": "Google",
+    "price": 200,
+    "change": -10
+  },
+  {
+    "id": "3",
+    "name": "Microsoft",
+    "price": 300,
+    "change": -10
+  },
+  {
+    "id": "4",
+    "name": "Amazon",
+    "price": 400,
+    "change": 20
+  },
+  {
+    "id": "5",
+    "name": "Facebook",
+    "price": 500,
+    "change": -50
+  },
+  {
+    "id": "6",
+    "name": "Twitter",
+    "price": 600,
+    "change": 31
+  },
+  {
+    "id": "7",
+    "name": "Tesla",
+    "price": 700,
+    "change": 20
+  },
+  {
+    "id": "8",
+    "name": "Alphabet",
+    "price": 800,
+    "change": -40
+  },
+  {
+    "id": "9",
+    "name": "Netflix",
+    "price": 900,
+    "change": 20
+  },
+  {
+    "id": "10",
+    "name": "SpaceX",
+    "price": 1000,
+    "change": 49
+  },
+  {
+    "id": "11",
+    "name": "Tesla",
+    "price": 1100,
+    "change": 102
+  },
+  {
+    "id": "12",
+    "name": "Amazon",
+    "price": 1200,
+    "change": -102
+  },
+  {
+    "id": "13",
+    "name": "Apple",
+    "price": 1300,
+    "change": 40
+  },
+  {
+    "id": "14",
+    "name": "Google",
+    "price": 1400,
+    "change": 12
+  },
+  {
+    "id": "15",
+    "name": "Microsoft",
+    "price": 1500,
+    "change": 54
+  },
+  {
+    "id": "16",
+    "name": "Amazon",
+    "price": 1600,
+    "change": -30
+  },
+  {
+    "id": "17",
+    "name": "Facebook",
+    "price": 1700,
+    "change": -95
+  },
+  {
+    "id": "18",
+    "name": "Twitter",
+    "price": 1800,
+    "change": -5
+  },
+  {
+    "id": "19",
+    "name": "Tesla",
+    "price": 1900,
+    "change": 20
+  },
+  {
+    "id": "20",
+    "name": "Alphabet",
+    "price": 2000,
+    "change": -1
+  },
+  {
+    "id": "21",
+    "name": "Netflix",
+    "price": 2100,
+    "change": 43
+  }
+]

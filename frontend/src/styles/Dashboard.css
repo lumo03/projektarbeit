@@ -1,0 +1,21 @@
+.is-negative {
+  color: #ff0000;
+}
+
+.is-positive {
+  color: #23ee14;
+}
+
+.last {
+  font-weight: bold;
+}
+
+.component {
+  background: rgb(36, 36, 36);
+  color: white;
+  margin: 10px;
+}
+
+.headingS {
+  color: white;
+}

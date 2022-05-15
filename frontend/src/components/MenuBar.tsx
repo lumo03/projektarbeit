@@ -11,7 +11,11 @@ const MenuBar: FC = (props) => {
   return (
     <>
       {/* Adaption, Quelle: https://react-bulma.io/docs/components/components/navbar/ */}
-      <Navbar className="m-0" color="black" style={{backgroundColor: "black"}}>
+      <Navbar
+        className="m-0"
+        color="black"
+        style={{ backgroundColor: "black" }}
+      >
         <Navbar.Brand>
           <Navbar.Item renderAs={Link} to="/">
             <img
@@ -28,9 +32,16 @@ const MenuBar: FC = (props) => {
         </Navbar.Brand>
         <Navbar.Menu className={menuState ? "is-active" : ""}>
           <Navbar.Container align="right">
-            <Navbar.Item renderAs={Link} to="/">
-              Start
-            </Navbar.Item>
+            {isSignedIn ? (
+              <Navbar.Item renderAs={Link} to="/app/dashboard">
+                Dashboard
+              </Navbar.Item>
+            ) : (
+              <Navbar.Item renderAs={Link} to="/">
+                Start
+              </Navbar.Item>
+            )}
+
             {isSignedIn ? (
               <Navbar.Item renderAs={Link} to="/signout">
                 Abmelden
@@ -40,9 +51,10 @@ const MenuBar: FC = (props) => {
                 Anmelden
               </Navbar.Item>
             )}
+            {/*}
             <Navbar.Item renderAs={Link} to="/game">
               Spiel
-            </Navbar.Item>
+            </Navbar.Item>*/}
             <Navbar.Item renderAs={Link} to="/about">
               Über
             </Navbar.Item>

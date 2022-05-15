@@ -1,0 +1,31 @@
+[
+  {
+    "id": "13k4m343i34",
+    "firstName": "max",
+    "lastName": "mustermann",
+    "password": "12345",
+    "balance": 10000,
+    "stocks": [
+      { "id": "1", "name": "Apple", "price": 100, "amount": 10, "change": 10 },
+      { "id": "2", "name": "Google", "price": 200, "amount": 20, "change": -10 }
+    ]
+  },
+  {
+    "id": "DQTL01TGFI",
+    "firstName": "admin",
+    "lastName": "",
+    "password": "admin",
+    "balance": 7800,
+    "stocks": [
+      { "id": "1", "name": "Apple", "price": 100, "amount": 12, "change": 10 },
+      {
+        "id": "3",
+        "name": "Microsoft",
+        "price": 300,
+        "amount": 1,
+        "change": -10
+      },
+      { "id": "7", "name": "Tesla", "price": 700, "amount": 1, "change": 20 }
+    ]
+  }
+]

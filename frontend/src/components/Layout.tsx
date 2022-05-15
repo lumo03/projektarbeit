@@ -9,11 +9,11 @@ interface LayoutProps {
 
 const Layout: FC<LayoutProps> = (props) => {
   return (
-    <>
+    <div style={{ backgroundColor: "black" }}>
       <Container>
         <MenuBar />
       </Container>
-      <Container>
+      <Container style={{ display: "block", overflow: "auto" }}>
         <div className="content" style={props.style}>
           {props.children}
         </div>
@@ -25,7 +25,7 @@ const Layout: FC<LayoutProps> = (props) => {
           Moncada (2022)
         </p>
       </Container>
-    </>
+    </div>
   );
 };
 

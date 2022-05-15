@@ -1,10 +1,10 @@
+import "bulma/css/bulma.min.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import reportWebVitals from "./reportWebVitals";
-import "bulma/css/bulma.min.css";
 import { Provider } from "react-redux";
 import App from "./App";
 import store from "./redux-store";
+import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

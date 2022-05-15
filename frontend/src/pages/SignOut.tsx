@@ -1,9 +1,10 @@
 import React, { FC } from "react";
-import { Button } from "react-bulma-components";
+import { Button, Heading } from "react-bulma-components";
 import { useNavigate } from "react-router-dom";
 import { useAppDispatch } from "../components/hooks";
 import Layout from "../components/Layout";
 import { signOut } from "../redux-store/userSlice";
+import "../styles/Dashboard.css";
 
 const SignOut: FC = () => {
   const navigate = useNavigate();
@@ -14,9 +15,13 @@ const SignOut: FC = () => {
     navigate("/");
   };
   return (
-    <Layout title="Abmelden">
-      <div>Abmelden</div>
-      <Button onClick={() => signOutUser()}>Abmelden</Button>
+    <Layout title="Abmelden" style={{ marginTop: "50px" }}>
+      <Heading size={4} style={{ color: "white" }}>
+        Tschüss, bis bald!
+      </Heading>
+      <Button onClick={() => signOutUser()} className="component">
+        Abmelden
+      </Button>
     </Layout>
   );
 };

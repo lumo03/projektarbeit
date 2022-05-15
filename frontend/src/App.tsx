@@ -1,9 +1,6 @@
-import { FC, useEffect } from "react";
-import Router from "./components/Router";
-import { useRoutes } from "react-router";
-import Routes from "./components/Router";
-import { useAppSelector } from "./components/hooks";
+import { FC } from "react";
 import "./App.css";
+import Router from "./components/Router";
 
 const App: FC = () => {
   document.body.classList.add("background-black");

@@ -1,6 +1,6 @@
 import React, { FC, useRef } from "react";
 import Layout from "../components/Layout";
-import "./Home.css";
+import "../styles/Home.css";
 import { IParallax, Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { Container, Heading, Section } from "react-bulma-components";
 import { NumberAnimation } from "../components/NumberAnimation";
